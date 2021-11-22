@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar Puzzle</title>
+  </head>
+  <body>
+    <div id="calendar-puzzle"></div>
+    <script type="module">
+      import { Elm } from './src/Main.elm'
+
+      Elm.Main.init({node: document.getElementById("calendar-puzzle")});
+    </script>
+  </body>
+</html>
